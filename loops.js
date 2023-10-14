@@ -1,13 +1,22 @@
+/*
+    this challenge file was created, so that i could write the code off my heart without
+    using any code refrences, include visual studio snippets
+*/
+
+// how to write a for loop that prints my name 10 times
+
 for(i=0;i<10;i++){
-    console.log("Ahmed")
+    console.log("fardowsa")
 }
 
+// how to write for a loop that prints my surname10 times
 let count = 0;
 while(count<10){
     console.log("Mohamed")
     count++
 }
 
+// use else if statement to print what i do
 let today = "Friday";
 
 if (today == "Saturday"){
@@ -20,6 +29,7 @@ if (today == "Saturday"){
     console.log("Do whatever you like")
 }
 
+// use switch statement to print what i do
 switch (today) {
     case "Saturday":
         console.log("Coding time...")
